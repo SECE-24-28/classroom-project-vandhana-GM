@@ -1,0 +1,87 @@
+.grid{
+    display: grid;
+    padding: 10px;
+    margin: 100px;
+    grid-template-columns: repeat(6,50px);
+    grid-template-rows: repeat(5,50px);
+    grid-gap:1px;
+
+}
+.item1{
+    border: 10px solid red;
+    background-color: red;
+    grid-row:span 2;
+ }   
+ .item2{
+    border: 10px solid rgb(122, 3, 122);
+    background-color: rgb(122,3,122);
+ }
+ .item3{
+    border: 10px solid red;
+    background-color: red;
+    grid-column: span 2;
+ }
+ .item4{
+    border: 10px solid darkblue;
+    background-color: darkblue;
+ }
+ .item5{
+    border: 10px solid white;
+    background-color: white;
+    grid-row: span 4;
+ }
+ .item6{
+    border: 10px solid orange;
+    background-color: orange;
+    grid-row: span 2;
+ }
+ .item7{
+    border: 10px solid white;
+    background-color: white;
+    grid-column: span 2;
+    grid-row: span 2;
+ }
+ .item8{
+    border: 10px solid orange;
+    background-color: orange;
+    grid-row: span 2;
+ }
+ .item9{
+    border: 10px solid green;
+    background-color:green;
+ }
+ .item10{
+    border: 10px solid orange;
+    background-color: orange;
+    grid-row: span 2;
+ }
+ .item11{
+    border: 10px solid blue;
+    background-color: blue;
+ }
+ .item12{
+    border: 10px solid darkmagenta;
+    background-color: darkmagenta;
+ }
+ .item13{
+    border: 10px solid red;
+    background-color: red;
+    grid-column: span 2;
+ }
+ .item14{
+    border: 10px solid red;
+    background-color: red;
+ }
+ .item15{
+    border: 10px solid green;
+    background-color: green;
+    grid-column: span 2;
+ }
+ .item16{
+    border: 10px solid blue;
+    background-color: blue;
+ }
+ .item17{
+    border: 10px solid yellow;
+    background-color: yellow;
+ }

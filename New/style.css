@@ -1,0 +1,47 @@
+/*For grouping the selector we use (,)*/
+
+h1,p{
+    font-style: italic;
+}
+
+#unique{
+    color: red;
+    font-style: italic;
+}
+
+.item{
+    color: rgb(238, 65, 229);
+}
+h1{
+    color: blue;
+}
+
+div p{
+    background-color: aquamarine;
+}
+
+div>span{
+    background-color: blanchedalmond;
+}
+
+div>#main{
+    background-color: blueviolet;
+}
+
+h3+p{
+    color: rgb(42, 155, 25);
+}
+
+/*hover*/
+a:hover{
+    color: red;
+    border: 5px solid rgb(216, 19, 246);
+}
+
+p::first-letter{
+    font-size: 20px;
+    color: orange;
+}
+*{
+    background-color: rgb(138, 248, 101);
+}

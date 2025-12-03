@@ -1,0 +1,49 @@
+h2,h3{
+    text-align: center;
+    color:darkblue;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid skyblue;
+    background: white;
+    height: 50px;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#box{
+    color: darkblue;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main2{
+    text-align: center;
+    border: 2px solid skyblue;
+    background: white;
+    height: 100px;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#box2{
+    color: darkblue;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

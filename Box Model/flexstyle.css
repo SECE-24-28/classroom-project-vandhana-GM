@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    border: 2px solid #ccc;
+    background: lightpink;
+    height: 90px;
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    background:lightgoldenrodyellow;
+    color: darkblue;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    
+}

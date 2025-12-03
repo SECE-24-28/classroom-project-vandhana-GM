@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+
+}
+
+#main{
+    font-weight: 900;
+    font-size: large;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    
+}
